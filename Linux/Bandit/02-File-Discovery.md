@@ -62,7 +62,7 @@ An important distinction is that file accessibility and content type are differe
 - For recursive file type identification, combine `find` with `file`:
 
 ```bash
-find . -type f -exec file {} +
+find . -type f -exec file -- {} +
 ```
 
 - `-size` supports comparison prefixes:
